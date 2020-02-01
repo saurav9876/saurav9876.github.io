@@ -1,5 +1,9 @@
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"], {
   /***/
   "./$$_lazy_route_resource lazy recursive":
@@ -32,6 +36,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/about/about.component.html":
+  /*!**********************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/about/about.component.html ***!
+    \**********************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppAboutAboutComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<div class=\"section\" id=\"about\">\n  <div class=\"container\">\n    <div class=\"card\" data-aos=\"fade-up\" data-aos-offset=\"10\">\n      <div class=\"row\">\n        <div class=\"col-lg-6 col-md-12\">\n          <div class=\"card-body\">\n            <div class=\"h4 mt-0 title\">About</div>\n            <p>Hi I'm <strong>Saurav kejriwal</strong>  .Currently I am Software Developer with Works applications and also have expertise with Angular8 ,Django,Python, Java and front end . </p>\n\n\n            <p>\n              Lover of innovation and everything related to generate new knowledge.Face problems with a smile and solve them as soon as possible. Very calculated about the time I spend and work I do.\n            </p>\n\n\n          </div>\n        </div>\n        <div class=\"col-lg-6 col-md-12\">\n          <div class=\"card-body\">\n            <div class=\"h4 mt-0 title\">Basic Information</div>\n            <div class=\"row\">\n              <div class=\"col-sm-4\">\n                <strong class=\"text-uppercase\">Date of Birth:</strong>\n              </div>\n              <div class=\"col-sm-8\">Aug 11, 1996</div>\n            </div>\n            <div class=\"row mt-3\">\n              <div class=\"col-sm-4\">\n                <strong class=\"text-uppercase\">Email:</strong>\n              </div>\n              <div class=\"col-sm-8\">kejriwal9576@gmail.com</div>\n            </div>\n            <div class=\"row mt-3\">\n              <div class=\"col-sm-4\">\n                <strong class=\"text-uppercase\">Phone:</strong>\n              </div>\n              <div class=\"col-sm-8\">+91 7086867781</div>\n            </div>\n            <div class=\"row mt-3\">\n              <div class=\"col-sm-4\">\n                <strong class=\"text-uppercase\">Address:</strong>\n              </div>\n              <div class=\"col-sm-8\">Jaynagar, Madhubani, Bihar , INDIA\n              </div>\n            </div>\n            <div class=\"row mt-3\">\n              <div class=\"col-sm-4\">\n                <strong class=\"text-uppercase\">Language:</strong>\n              </div>\n              <div class=\"col-sm-8\">Hindi, English</div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n";
+    /***/
+  },
+
+  /***/
   "./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html":
   /*!**************************************************************************!*\
     !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html ***!
@@ -47,7 +71,27 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<h1>Hey it's me Saurav kejriwal !!! </h1>\n<h3>I graduated from IITG</h3>\n<h3> currently I'm working at works application sinngapore </h3>\n<h3 style=\"color:red;\">The site is currently under maintenance !!!!</h3>\n<h3> Contact me @ --->  kejriwal9576@gmail.com</h3>";
+    __webpack_exports__["default"] = "<div>\n  <app-header></app-header>\n  <app-about></app-about>\n</div>\n<router-outlet></router-outlet>\n";
+    /***/
+  },
+
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/header/header.component.html":
+  /*!************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/header/header.component.html ***!
+    \************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppHeaderHeaderComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<div class=\"header\">\n    <a href=\"#\">HOME</a>\n    <a href=\"#\">ABOUT</a>\n    <a href=\"#\">EXPERIENCE</a>\n    <a href=\"#\">EDUCATION</a>\n    <a href=\"#\">SERICES</a>\n    <a href=\"#\">SKILLS</a>\n    <a href=\"#\">BLOG</a>\n    <a href=\"#\">CONTACT</a>\n</div>\n";
     /***/
   },
 
@@ -610,6 +654,85 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
+  "./src/app/about/about.component.css":
+  /*!*******************************************!*\
+    !*** ./src/app/about/about.component.css ***!
+    \*******************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppAboutAboutComponentCss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = ".row p{\r\n  font-weight: 700px;\r\n  color:black;\r\n\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWJvdXQvYWJvdXQuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGtCQUFrQjtFQUNsQixXQUFXOztBQUViIiwiZmlsZSI6InNyYy9hcHAvYWJvdXQvYWJvdXQuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5yb3cgcHtcclxuICBmb250LXdlaWdodDogNzAwcHg7XHJcbiAgY29sb3I6YmxhY2s7XHJcblxyXG59XHJcbiJdfQ== */";
+    /***/
+  },
+
+  /***/
+  "./src/app/about/about.component.ts":
+  /*!******************************************!*\
+    !*** ./src/app/about/about.component.ts ***!
+    \******************************************/
+
+  /*! exports provided: AboutComponent */
+
+  /***/
+  function srcAppAboutAboutComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "AboutComponent", function () {
+      return AboutComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+
+    var AboutComponent =
+    /*#__PURE__*/
+    function () {
+      function AboutComponent() {
+        _classCallCheck(this, AboutComponent);
+      }
+
+      _createClass(AboutComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return AboutComponent;
+    }();
+
+    AboutComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-about',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./about.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/about/about.component.html")).default,
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./about.component.css */
+      "./src/app/about/about.component.css")).default]
+    })], AboutComponent);
+    /***/
+  },
+
+  /***/
   "./src/app/app-routing.module.ts":
   /*!***************************************!*\
     !*** ./src/app/app-routing.module.ts ***!
@@ -779,17 +902,114 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! ./app.component */
     "./src/app/app.component.ts");
+    /* harmony import */
+
+
+    var _angular_common_http__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    /*! @angular/common/http */
+    "./node_modules/@angular/common/fesm2015/http.js");
+    /* harmony import */
+
+
+    var _header_header_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    /*! ./header/header.component */
+    "./src/app/header/header.component.ts");
+    /* harmony import */
+
+
+    var _about_about_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    /*! ./about/about.component */
+    "./src/app/about/about.component.ts");
 
     var AppModule = function AppModule() {
       _classCallCheck(this, AppModule);
     };
 
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]],
-      imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"]],
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _header_header_component__WEBPACK_IMPORTED_MODULE_6__["HeaderComponent"], _about_about_component__WEBPACK_IMPORTED_MODULE_7__["AboutComponent"]],
+      imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_5__["HttpClientModule"]],
       providers: [],
       bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
     })], AppModule);
+    /***/
+  },
+
+  /***/
+  "./src/app/header/header.component.css":
+  /*!*********************************************!*\
+    !*** ./src/app/header/header.component.css ***!
+    \*********************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppHeaderHeaderComponentCss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = ".header {\r\n    overflow: hidden;\r\n    background-color:#009688;\r\n    padding: 20px 10px;\r\n    display: block;\r\n}\r\n.header a {\r\n    float: left;\r\n    color: white;\r\n    text-align: center;\r\n    padding: 12px;\r\n    text-decoration: none;\r\n    font-size: 20px;\r\n    line-height: 25px;\r\n    border-radius: 4px;\r\n    margin-left: 55px;\r\n}\r\n.header a:hover {\r\n    background-color: rgb(3, 7, 243);\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaGVhZGVyL2hlYWRlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksZ0JBQWdCO0lBQ2hCLHdCQUF3QjtJQUN4QixrQkFBa0I7SUFDbEIsY0FBYztBQUNsQjtBQUNBO0lBQ0ksV0FBVztJQUNYLFlBQVk7SUFDWixrQkFBa0I7SUFDbEIsYUFBYTtJQUNiLHFCQUFxQjtJQUNyQixlQUFlO0lBQ2YsaUJBQWlCO0lBQ2pCLGtCQUFrQjtJQUNsQixpQkFBaUI7QUFDckI7QUFFQTtJQUNJLGdDQUFnQztBQUNwQyIsImZpbGUiOiJzcmMvYXBwL2hlYWRlci9oZWFkZXIuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5oZWFkZXIge1xyXG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IzAwOTY4ODtcclxuICAgIHBhZGRpbmc6IDIwcHggMTBweDtcclxuICAgIGRpc3BsYXk6IGJsb2NrO1xyXG59XHJcbi5oZWFkZXIgYSB7XHJcbiAgICBmbG9hdDogbGVmdDtcclxuICAgIGNvbG9yOiB3aGl0ZTtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIHBhZGRpbmc6IDEycHg7XHJcbiAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbiAgICBmb250LXNpemU6IDIwcHg7XHJcbiAgICBsaW5lLWhlaWdodDogMjVweDtcclxuICAgIGJvcmRlci1yYWRpdXM6IDRweDtcclxuICAgIG1hcmdpbi1sZWZ0OiA1NXB4O1xyXG59XHJcblxyXG4uaGVhZGVyIGE6aG92ZXIge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDMsIDcsIDI0Myk7XHJcbn1cclxuIl19 */";
+    /***/
+  },
+
+  /***/
+  "./src/app/header/header.component.ts":
+  /*!********************************************!*\
+    !*** ./src/app/header/header.component.ts ***!
+    \********************************************/
+
+  /*! exports provided: HeaderComponent */
+
+  /***/
+  function srcAppHeaderHeaderComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "HeaderComponent", function () {
+      return HeaderComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+
+    var HeaderComponent =
+    /*#__PURE__*/
+    function () {
+      function HeaderComponent() {
+        _classCallCheck(this, HeaderComponent);
+      }
+
+      _createClass(HeaderComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return HeaderComponent;
+    }();
+
+    HeaderComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-header',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./header.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/header/header.component.html")).default,
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./header.component.css */
+      "./src/app/header/header.component.css")).default]
+    })], HeaderComponent);
     /***/
   },
 
